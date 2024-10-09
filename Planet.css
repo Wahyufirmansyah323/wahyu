@@ -1,0 +1,140 @@
+ /* Global Styles */
+ body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    color: #000;
+}
+
+/* Header Styles */
+.header {
+    color: #ffb74d;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+/* Main Content Styles */
+.main-title {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main-title .highlight {
+    color: #3f3d56;
+}
+
+.sub-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #3f3d56;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Footer Styles */
+.footer {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: 20px;
+    background-color: #3f3d56;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #ffb74d;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons a {
+    margin: 0 10px;
+    color: #ffb74d;
+}
+
+/* Image Container Styles */
+.image-container {
+    margin-left: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #3f3d56;
+}
+
+.navbar-brand img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-brand span {
+    color: #ffb74d;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+/* Button Styles */
+.btn-custom {
+    background-color: #3f3d56;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #ffb74d;
+    color: #3f3d56;
+}
+
+/* Header Content Styles */
+.header-content {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+    }
+
+    .sub-title {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .section-text {
+        font-size: 1rem;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+}
